@@ -1,5 +1,5 @@
 
-name: publish_docker_image_to_dockerhub
+name: new 
 
 on:
   release:
