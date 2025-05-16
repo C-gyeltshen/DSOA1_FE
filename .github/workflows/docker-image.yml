@@ -3,9 +3,6 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-# GitHub recommends pinning actions to a commit SHA.
-# To get a newer version, you will need to update the SHA.
-# You can also reference a tag or branch, but the action may change without warning.
 
 name: publish_docker_image_to_dockerhub
 
@@ -54,4 +51,6 @@ jobs:
           subject-name: index.docker.io/my-docker-hub-namespace/my-docker-hub-repository
           subject-digest: ${{ steps.push.outputs.digest }}
           push-to-registry: true
+# 
+# 
 # 
