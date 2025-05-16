@@ -2,8 +2,7 @@
 name: new 
 
 on:
-  release:
-    types: [published]
+  push
 
 jobs:
   push_to_registry:
