@@ -36,7 +36,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-        #   tags: ${{ steps.meta.outputs.tags }}
+          tags: ${{ secrets.DOCKER_USERNAME}}/feImage:latest
         #   labels: ${{ steps.meta.outputs.labels }}
 
       - name: Generate artifact attestation
